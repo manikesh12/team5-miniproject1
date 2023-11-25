@@ -115,7 +115,7 @@ def graph_sales_quarter(df,from_date,to_date):
 
 
 
-loaded_model=pickle.load(open("D:/project/team5-miniproject1/premodel.pkl",'rb'))
+loaded_model=pickle.load(open("ui/premodel.pkl",'rb'))
 
 
 
