@@ -125,8 +125,9 @@ st.title('Store Item Demand Forecasting')
 st.write('select the date range')
 
 # Date input
-from_date = st.date_input('From Date', pd.Timestamp('2018-01-01'), min_value=datetime.date(2013, 1, 1))
-to_date = st.date_input('To Date', pd.Timestamp('2018-03-01'),min_value=datetime.date(2013, 1, 1))
+from_date = st.date_input('From Date', pd.Timestamp('2018-01-01'), min_value=datetime.date(2018, 1, 1),max_value=datetime.date(2019, 12, 31))
+to_date = st.date_input('To Date', pd.Timestamp('2018-03-01'),min_value=datetime.date(2018, 1, 1),max_value=datetime.date(2019, 12, 31))
+
 
 # print(from_date.year)
 
